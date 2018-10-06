@@ -1,7 +1,7 @@
 # Travel-Mode-Choice-Modeling
 Connected & Automated Vehicles (CAV) technology has reached the home stretch of commercialization. For the sake of making the product more economic, many people believe that rides will be combined and electrified. MCity, as a leader in CAV testing and deployment, has decided to operate the first automated shuttle line on the campus of the University of Michigan in 2017. To enhance the performance of this new mobility system and ensure its compatibility with existed facilities, we will assist the team by modeling the traveling pattern of U-M community members. The main and unique resource we will leverage on is the PrivaScope database that tracks all WiFi devices on campus. We hope to develop a data-driven algorithm for vehicle routing and scheduling use. At the end of day, it should be able to allocate automated shuttles efficiently to meet dynamic demand for traveling between campus.
 
-Database:
+## Database:
 PrivaScope:
 Assuming that mobile devices (especially cellphone) represents the realtime movements of people (U- M faculty members, staff and students) on campus. We can estimate the current travel mode choice based on locations of connected WiFi access point, i.e. hotspot. We can construct paths from point- to-point geometric connections.
 
@@ -10,7 +10,7 @@ Three databases are used in this project (only introduce columns we may use):
 2. WiFi connection database: include device information (series number, etc.), time (in second) and connected hotspot id.
 3. WiFi hotspot id map: each hotspot id has its geographic location, which is labeled by the centroid of a nearest building on campus map.
 
-Task Description:
+## Task Description:
 1. Build a database of device users’ paths.
 Path is a series of connected geometric locations on a map.
 A.
